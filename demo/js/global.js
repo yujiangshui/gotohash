@@ -7,7 +7,8 @@ $(document).ready( function() {
 	$('a[href="#"]').click( function(e) { e.preventDefault(); return false; } );
 
 	$.gohashurl({
-		topfixed: '.header'
+		topfixed: '.header',
+		easing: 'easeInOutCirc',
 	});
 
 	$('a').click(function(event) {
